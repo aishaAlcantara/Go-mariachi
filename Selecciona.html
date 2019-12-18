@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/a09a4c628d.js" crossorigin="anonymous"></script>
+    <title>Selecciona</title>
+    <link rel="stylesheet" href="./Intro.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a class="active" href="#"><i class="fas fa-pepper-hot" style="color: black;"></i> Home</a>
+            <a href="./Pago.html"><i class="fas fa-credit-card" style="color: black;"></i> Pago</a>
+            <a href="#"><i class="fas fa-comment-alt" style="color: black;"></i> FAQ</a>
+            <a href="#"><i class="fa fa-fw fa-user" style="color: black;"></i> Perfil</a>
+        </div>
+    </header>
+    <section class="container mt-4">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text BotonConfirmar" for="inputGroupSelect01">Integrantes</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>Elige...</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text BotonConfirmar" for="inputGroupSelect02">Tiempo</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect02">
+                <option selected>Elige...</option>
+                <option value="1">30 min</option>
+                <option value="2">1 hra</option>
+                <option value="3">2 hras</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text BotonConfirmar" for="inputGroupSelect03">Repertorio</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect03">
+                <option selected>Elige...</option>
+                <option value="1">Fijo</option>
+                <option value="2">Libre</option>
+            </select>
+        </div>
+        <section class="mapgoogle">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.880333346985!2d-99.16443658640168!3d19.41757574619552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3980ac181f%3A0xe357573c8ab8ef4d!2sDev.f!5e0!3m2!1ses-419!2smx!4v1576201716801!5m2!1ses-419!2smx"
+                width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+        <section>
+            <div class="form-row CustomDatos">
+                <div class="form-group col-md-3">
+                    <label for="inputCity">Dirección</label>
+                    <input type="text" id="Direccion" class="form-control">
+                </div>
+                <div class="form-group col-4">
+                    <label for="inputCity">Horario de llegada</label>
+                    <input type="time" id="Horario" class="form-control" placeholder="12:00">
+                </div>
+            </div>
+                <div class="CustomDatos">
+                    <button onclick="mostrarDir()" class="BotonConfirmar btn btn-primary">Confirmar</button>
+                </div>
+            
+        
+        </section>
+
+    </section>
+
+    <section class="CustomFooter mt-4">
+    <!-- Footer -->
+<footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+  
+      <!-- Social buttons -->
+      <ul class="list-unstyled list-inline text-center">
+        <li class="list-inline-item">
+          <a class="btn-floating btn-fb mx-1">
+            <i class="fab fa-facebook-f"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-tw mx-1">
+            <i class="fab fa-twitter"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-gplus mx-1">
+            <i class="fab fa-google-plus-g"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-li mx-1">
+            <i class="fab fa-linkedin-in"> </i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="btn-floating btn-dribbble mx-1">
+            <i class="fab fa-dribbble"> </i>
+          </a>
+        </li>
+      </ul>
+      <!-- Social buttons -->
+  
+    </div>
+    <!-- Footer Elements -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://gomariachi.com.mx/"> Gomariachi.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+  </section>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="./Intro.js"></script>
+</body>
+
+</html>
