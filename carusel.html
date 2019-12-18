@@ -35,8 +35,8 @@
 </head>
 
 <body>
-
-
+<!-- carusel -->
+  
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -58,6 +58,36 @@
       <span class="sr-only">Siguiente</span>
     </a>
   </div>
+  
+
+<!-- Botón en HTML (lanza el modal en Bootstrap) -->
+
+<div class="botonM">
+<a href="#victorModal" role="button" id="botonM1" class="btn btn-large btn-primary2" data-toggle="modal">Promos</a>
+</div>
+  
+<!-- Modal / Ventana / Overlay en HTML -->
+<div id="victorModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Promos de Temporada</h4>
+            </div>
+            <div class="modal-body">
+                <p>En esta temporada navideña disfruta de un padrisimo Mariachi en tu evento y has Riajaaa con nosotros.!!!</p>
+                <p class="text-warning"><small>Valido hasta el 5 de Enero.</small></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-danger">Ir a Promos</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -----cards----- -->
 
   <div class="card1 col-12">
     <div class="card">
@@ -113,19 +143,10 @@
 
 
 
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+      
 
 <!-- Footer -->
+<div class="footer">
 <footer class="page-footer font-small special-color-dark pt-4">
 
     <!-- Footer Elements -->
@@ -172,9 +193,24 @@
   
   </footer>
   <!-- Footer -->
+  
+</div>
 
+
+
+
+
+  <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
-
-
 
 </html>
